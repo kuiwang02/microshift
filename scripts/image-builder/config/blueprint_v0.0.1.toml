@@ -62,6 +62,50 @@ name = "iproute-tc"
 version = "*"
 
 # customizations
+#index
+[[containers]]
+source = "quay.io/olmqe/nginx-ok-index@sha256:03f890334f4e6ff643c246cf22bb9d0273d1a59e535ae18c0806335be628e4ad"
+
+#bundle and operator images
+[[containers]]
+source = "gcr.io/kubebuilder/kube-rbac-proxy:v0.13.0"
+
+[[containers]]
+source = "quay.io/olmqe/nginx-ok-bundle@sha256:0ca80beca4f3a238a76ceecc6f161a17205dcf5f195f4dae3d41e9c2e6bd7df6"
+
+[[containers]]
+source = "quay.io/olmqe/nginx-ok-bundle@sha256:15c4df07c00683a4efcf55c2e009557925b3994b75203941f8b6a9519b658742"
+
+[[containers]]
+source = "quay.io/olmqe/nginx-ok-bundle@sha256:24aafc29fc912295a46b1cd78386c32333114472307ae05c4fa3916bf5011db3"
+
+[[containers]]
+source = "quay.io/olmqe/nginx-ok-bundle@sha256:534699a0ab599988695fa9af10628c8e067fdedadcf4d7145215d4684cf1b12f"
+
+[[containers]]
+source = "quay.io/olmqe/nginx-ok-bundle@sha256:7d6746ae57d066db7253a4d40385f60c98b0091958c0b1c36ad72b32c945f28f"
+
+[[containers]]
+source = "quay.io/olmqe/nginx-ok-bundle@sha256:869bf430b9d7e232e92588e6aa1bdeaed64fc4a6c4a54b15438968c62a2fec54"
+
+[[containers]]
+source = "quay.io/olmqe/nginx-ok-bundle@sha256:90c481198f5322f3cb55842c2bd3f5b564372bca8ba39bb3065d26ec42d88390"
+
+[[containers]]
+source = "quay.io/olmqe/nginx-ok-bundle@sha256:a4335c8ff86e18f23f2edc2d834c723b563b4425ab1883f3181bc9006e9716c8"
+
+[[containers]]
+source = "quay.io/olmqe/nginx-ok-bundle@sha256:d089e2e7d8ef8f19ed03a4e2332c1af5cff750c0835e53106190ced1a8179b98"
+
+[[containers]]
+source = "quay.io/olmqe/nginx-ok-bundle@sha256:f522a691ce7a755d98f2f6a17ba6d02dcb9e4e97ffa509c936ec785bec580da1"
+
+[[containers]]
+source = "quay.io/olmqe/nginx-operator-base@sha256:0ec485e1747281b1547844f7af4692e3e7debb8aaea07fb6edb6afa65e025964"
+
+[[containers]]
+source = "quay.io/olmqe/nginx-operator-base@sha256:1ab7861822cb39f0bf13c7640eb957b4cc16aee10f6cbd5b9daa2deaedc37fe5"
+
 
 [customizations]
 
